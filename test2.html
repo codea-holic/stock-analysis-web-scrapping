@@ -1,0 +1,289 @@
+
+							<style>
+								.marknap_overlay {
+									display: none;
+									position: absolute;
+									width: 100%;
+									height: 100%;
+									left: 0px;
+									right: 0px;
+									background: rgba(0, 0, 0, 0.6);
+								}
+							</style>
+							<div class="marknap_overlay"></div>
+							<div class="leftIndinav mob-hide">
+  
+    <div class="lftsearch">
+      <input type="hidden" id="selectedLeftIndicesId" value="1">
+      <select id="indicesDropdown" onchange="dropdownSelected(this);">
+        
+          
+              
+                <option data-id="1" data-name="Key Indices" value="1" onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal-Categories', 'Key Indices');">Key Indices</option>
+              
+                <option data-id="2" data-name="Sectoral Indices" value="2" onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal-Categories', 'Sectoral Indices');">Sectoral Indices</option>
+              
+                <option data-id="3" data-name="Other Indices" value="3" onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal-Categories', 'Other Indices');">Other Indices</option>
+              
+                <option data-id="4" data-name="Large Cap" value="4" onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal-Categories', 'Large Cap');">Large Cap</option>
+              
+                <option data-id="5" data-name="Mid Cap" value="5" onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal-Categories', 'Mid Cap');">Mid Cap</option>
+              
+                <option data-id="6" data-name="Small Cap" value="6" onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal-Categories', 'Small Cap');">Small Cap</option>
+              
+                <option data-id="7" data-name="All Indices" value="7" onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal-Categories', 'All Indices');">All Indices</option>
+              
+             
+         
+      </select>
+    </div> 
+
+    <!-- select dropdown option -->
+    <script>
+        document.getElementById("indicesDropdown").selectedIndex = "1"-1;
+    </script>
+    
+    <ul class="ntlist">
+        
+            
+                
+                  
+                <li class="indicesList active" data-name="NIFTY 50" data-subid="9"><h2><a onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal - Key Indices', 'NIFTY 50');" href="/markets/indian-indices/top-nse-50-companies-list/9?classic=true&amp;categoryId=1&amp;exType=N">NIFTY 50 </a></h2></li>
+             
+                  
+                <li class="indicesList " data-name="NIFTY BANK" data-subid="23"><h2><a onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal - Key Indices', 'NIFTY BANK');" href="/markets/indian-indices/top-nsebank-companies-list/23?classic=true&amp;categoryId=1&amp;exType=N">NIFTY BANK </a></h2></li>
+             
+                  
+                <li class="indicesList " data-name="NIFTY Midcap 100" data-subid="27"><h2><a onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal - Key Indices', 'NIFTY Midcap 100');" href="/markets/indian-indices/top-nsemidcap-100-companies-list/27?classic=true&amp;categoryId=1&amp;exType=N">NIFTY Midcap 100 </a></h2></li>
+             
+                  
+                <li class="indicesList " data-name="NIFTY NEXT 50" data-subid="6"><h2><a onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal - Key Indices', 'NIFTY NEXT 50');" href="/markets/indian-indices/top-nsenext-50-companies-list/6?classic=true&amp;categoryId=1&amp;exType=N">NIFTY NEXT 50 </a></h2></li>
+             
+                  
+                <li class="indicesList " data-name="NIFTY 100" data-subid="28"><h2><a onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal - Key Indices', 'NIFTY 100');" href="/markets/indian-indices/top-nse-100-companies-list/28?classic=true&amp;categoryId=1&amp;exType=N">NIFTY 100 </a></h2></li>
+             
+                  
+                <li class="indicesList " data-name="Nifty 200" data-subid="49"><h2><a onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal - Key Indices', 'Nifty 200');" href="/markets/indian-indices/top-nse-200-companies-list/49?classic=true&amp;categoryId=1&amp;exType=N">Nifty 200 </a></h2></li>
+             
+                  
+                <li class="indicesList " data-name="NIFTY 500" data-subid="7"><h2><a onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal - Key Indices', 'NIFTY 500');" href="/markets/indian-indices/top-nse-500-companies-list/7?classic=true&amp;categoryId=1&amp;exType=N">NIFTY 500 </a></h2></li>
+             
+                  
+                <li class="indicesList " data-name="NIFTY Smallcap 100" data-subid="53"><h2><a onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal - Key Indices', 'NIFTY Smallcap 100');" href="/markets/indian-indices/top-nsesmallcap-100-companies-list/53?classic=true&amp;categoryId=1&amp;exType=N">NIFTY Smallcap 100 </a></h2></li>
+             
+                  
+                <li class="indicesList " data-name="NIFTY MIDCAP 50" data-subid="31"><h2><a onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal - Key Indices', 'NIFTY MIDCAP 50');" href="/markets/indian-indices/top-nsemidcap-50-companies-list/31?classic=true&amp;categoryId=1&amp;exType=N">NIFTY MIDCAP 50 </a></h2></li>
+             
+                  
+                <li class="indicesList " data-name="NIFTY SMLCAP 50" data-subid="113"><h2><a onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal - Key Indices', 'NIFTY SMLCAP 50');" href="/markets/indian-indices/top-nsesmlcap-50-companies-list/113?classic=true&amp;categoryId=1&amp;exType=N">NIFTY SMLCAP 50 </a></h2></li>
+             
+                  
+                <li class="indicesList " data-name="India VIX" data-subid="36"><h2><a onclick="javascript:GAEventTracker('Indian Indices', 'Market Terminal - Key Indices', 'India VIX');" href="/markets/indian-indices/top-indiavix-companies-list/36?classic=true&amp;categoryId=1&amp;exType=N">India VIX </a></h2></li>
+             
+            
+          
+      
+    </ul>
+    <div class="lfinNote"> <strong>Note:</strong> You can change the category by selecting the options on top </div>
+  </div>
+
+  <script>
+    function dropdownSelected(element){
+      $('.MT_CategoryList') .removeClass('active');
+      $('#indices-'+element.value).addClass('active');
+      changeIndicesData(element.value,'demo');
+    }
+
+    // setting selected sub indices id and name for common state managment
+    let selectedSubIndicesId  = $('.indicesList.active').attr('data-subid') || '9';
+    let selectedSubIndicesName  = $('.indicesList.active').attr('data-name') || 'NIFTY 50';
+    $('#selectedSubIndidesId').val(selectedSubIndicesId); 
+    $('#selectedSubIndidesName').val(selectedSubIndicesName); 
+  </script>
+								<div class="indiright_tbl" id="MT_indiright_tbl">
+									<div class="transwrap"></div>
+									<div class="clearfix ndetail">
+										    
+        <input type="hidden" value="in;NSX" id="ind_bridgeID">
+        <div class="niftyinfobar">
+                <span id="name_inNSX">
+                    <a style="color: inherit;" target="_blank" href="https://www.moneycontrol.com/indian-indices/nifty-50-9.html">
+                        NIFTY 50 
+                    </a>
+                </span> 
+            <strong id="ltp_inNSX">17,276.30</strong> 
+            
+            
+            <span id="indArrow_inNSX" class="lcDown"><em></em></span>
+            <span class="flaturate red" id="perChg_inNSX"> -28.30 (-0.16%)</span>
+        </div>
+        
+
+    <script>
+        let brige_id = 'in;NSX';
+        $('#advdec_ind_bridgeId').val(brige_id);
+    </script>
+
+											
+												<div class="market_snap dropdown mob-hide">
+
+													<div class="snapTrigger" data-toggle="dropdown" onclick="openChartPopup();javascript:GAEventTracker('Indian Indices', 'Market Snapshot', 'Click');">
+														<svg xmlns="http://www.w3.org/2000/svg" width="11" height="13" viewBox="0 0 11 13">
+															<defs>
+																<style>
+																	.ams,
+																	.cms {
+																		fill: none;
+																	}
+
+																	.ams {
+																		stroke: #333;
+																	}
+
+																	.bms {
+																		stroke: none;
+																	}
+																</style>
+															</defs>
+															<g transform="translate(-1173 -748)">
+																<g class="ams" transform="translate(1173 748)">
+																	<rect class="bms" width="5" height="8"></rect>
+																	<rect class="cms" x="0.5" y="0.5" width="4" height="7"></rect>
+																</g>
+																<g class="ams" transform="translate(1179 753)">
+																	<rect class="bms" width="5" height="8"></rect>
+																	<rect class="cms" x="0.5" y="0.5" width="4" height="7"></rect>
+																</g>
+																<g class="ams" transform="translate(1173 757)">
+																	<rect class="bms" width="5" height="4"></rect>
+																	<rect class="cms" x="0.5" y="0.5" width="4" height="3"></rect>
+																</g>
+																<g class="ams" transform="translate(1179 748)">
+																	<rect class="bms" width="5" height="4"></rect>
+																	<rect class="cms" x="0.5" y="0.5" width="4" height="3"></rect>
+																</g>
+															</g>
+														</svg>Market Snapshot <svg class="mktarwup" xmlns="http://www.w3.org/2000/svg" width="7.809" height="4.822" viewBox="0 0 7.809 4.822">
+															<g transform="translate(-6 -7.84)">
+																<path fill="currentColor" d="M6.918,7.84,9.9,10.82l2.987-2.98.918.918-3.9,3.9L6,8.758Z" transform="translate(0 0)"></path>
+															</g>
+														</svg>
+													</div>
+													<!-- all charts display here -->
+													<div class="market_snap_container dropdown-menu" id="Allcharts">
+													</div>
+												</div>
+												
+									</div>
+									<div class="righttblenav clearfix">
+										<ul class="nav-tabs scroll_tabs nested_scroll" id="con_comn">
+											<li class="active" onclick="changeTableData('o');javascript:GAEventTracker('Indian Indices','Market Terminal','Overview');">
+												<h2><a href="javascript:void(0)" data-toggle="tab">Overview</a></h2>
+											</li>
+											<li onclick="changeTableData('t');javascript:GAEventTracker('Indian Indices','Market Terminal','Technical');">
+												<h2><a href="javascript:void(0)" data-toggle="tab">Technical</a></h2>
+											</li>
+											<li onclick="changeTableData('f');javascript:GAEventTracker('Indian Indices','Market Terminal','Fundamental');">
+												<h2><a href="javascript:void(0)" data-toggle="tab">Fundamental</a></h2>
+											</li>
+											<li onclick="changeTableData('p');javascript:GAEventTracker('Indian Indices','Market Terminal','Performance');">
+												<h2><a href="javascript:void(0)" data-toggle="tab">Performance</a></h2>
+											</li>
+											<li onclick="changeTableData('pl');javascript:GAEventTracker('Indian Indices','Market Terminal','Pivot Level');">
+												<h2><a href="javascript:void(0)" data-toggle="tab">Pivot Level</a></h2>
+											</li>
+										</ul>
+										<div class="dataclm"><span class="mob-hide">* choose your choice of data</span>
+											<a href="javascript:void(0)" data-toggle="modal" data-target="#choosecolum" onclick="openColumnPop();javascript:GAEventTracker('Indian Indices', 'Settings', 'Market Terminal');"><svg xmlns="http://www.w3.org/2000/svg" width="15.406" height="15.406" viewBox="0 0 15.406 15.406">
+													<defs>
+														<style>
+															.techRatingGreen {
+																color: green;
+															}
+
+															.techRatingGray {
+																color: grey;
+															}
+
+															.techRatingGreen:hover {
+																color: green;
+															}
+
+															.techRatingGray:hover {
+																color: grey;
+															}
+
+															.ast {
+																fill: none;
+																stroke: #000;
+																stroke-linecap: round;
+																stroke-linejoin: round;
+															}
+														</style>
+													</defs>
+													<g transform="translate(-0.5 -0.5)">
+														<circle class="ast" cx="2" cy="2" r="2" transform="translate(6 6.406)"></circle>
+														<path class="ast" d="M13.048,10.167a1.08,1.08,0,0,0,.216,1.192l.039.039a1.31,1.31,0,1,1-1.853,1.853l-.039-.039a1.089,1.089,0,0,0-1.847.773V14.1a1.31,1.31,0,0,1-2.619,0v-.059a1.08,1.08,0,0,0-.707-.989,1.08,1.08,0,0,0-1.192.216l-.039.039a1.31,1.31,0,1,1-1.853-1.853l.039-.039a1.089,1.089,0,0,0-.773-1.847H2.31a1.31,1.31,0,0,1,0-2.619h.059a1.08,1.08,0,0,0,.989-.707,1.08,1.08,0,0,0-.216-1.192L3.1,5.007A1.31,1.31,0,1,1,4.955,3.154l.039.039a1.08,1.08,0,0,0,1.192.216h.052a1.08,1.08,0,0,0,.655-.989V2.31a1.31,1.31,0,0,1,2.619,0v.059a1.089,1.089,0,0,0,1.847.773L11.4,3.1a1.31,1.31,0,1,1,1.853,1.853l-.039.039A1.08,1.08,0,0,0,13,6.186v.052a1.08,1.08,0,0,0,.989.655H14.1a1.31,1.31,0,1,1,0,2.619h-.059A1.08,1.08,0,0,0,13.048,10.167Z"></path>
+													</g>
+												</svg></a>
+										</div>
+									</div>
+									<div class="tab-content">
+										<div id="indicesTableData">
+											<div class="tab-pane fade in active" id="tbl_predefin">
+												<div class="table-responsive tabledesk-responsive custom_scroll" id="tableslider" itemscope="" itemtype="https://schema.org/Table">
+													<h2 itemprop="about" style="display:none;">Market Terminal</h2>
+													<table cellpadding="0" class="tbl_indices table_sorter" cellspacing="0" width="100%" id="indicesTable">
+														<thead>
+															
+															
+
+														</thead>
+														<tbody>
+															
+																<tr><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																	<td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																</tr>
+																<tr><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																	<td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																</tr>
+																<tr><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																	<td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																</tr>
+																<tr><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																	<td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																</tr>
+																<tr><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																	<td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																</tr>
+																<tr><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																	<td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																</tr>
+																<tr><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																	<td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																</tr>
+																	<tr><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																	<td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																</tr>
+																<tr><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																	<td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																</tr>
+																<tr><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																	<td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td><td><span class="skeleton-loader"></span></td>
+																</tr>
+															
+															
+														</tbody>
+													</table>
+												</div>
+												
+													<div class="sticky_paging">
+														<button id="slideBack" type="button"></button>
+														<button id="slide" type="button"></button>
+													</div>
+													
+											</div>
+										</div>
+									</div>
+								</div>
+						
