@@ -13,6 +13,6 @@ axios.get("https://www.moneycontrol.com/markets/indian-indices/").then(function(
 function handlehtml(html){
     let $ = cheerio.load(html);
     let content = $(".clearfix.inditablecnt");
-    fs.writeFileSync("test2.html", $(content).html());
-    console.log("Done");
+    let ele = $(content).find(".ntlist");
+    fs.writeFileSync("test2.html", $(ele).html(), "utf-8");
 }
